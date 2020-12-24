@@ -1,0 +1,27 @@
+{
+  "name": "email-senders",
+  "version": "1.0.0",
+  "description": "A set of wrappers with unified interface for popular email sending APIs",
+  "keywords": [
+    "email",
+    "send",
+    "sendinblue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexander-elgin/email-senders.git"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "npm": ">=3",
+    "node": ">=5"
+  },
+  "author": "Alexander Elgin",
+  "license": "MIT",
+  "scripts": {
+    "sendinblue": "node ./examples/sendinblue.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
