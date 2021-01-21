@@ -1,6 +1,6 @@
 {
   "name": "email-senders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of wrappers with unified interface for popular email sending APIs",
   "keywords": [
     "email",
